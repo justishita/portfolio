@@ -439,7 +439,7 @@ export default function Portfolio() {
 
       {/* FOOTER */}
       <footer style={{ textAlign: "center", padding: "24px", borderTop: `1px solid ${border}`, color: muted, fontSize: "12px", fontFamily: "'JetBrains Mono', monospace" }}>
-        Designed & Built by <span style={{ color: accent, fontWeight: 600 }}>Ishita Verma</span> · 2025
+        Designed & Built by <span style={{ color: accent, fontWeight: 600 }}>Ishita Verma</span> · 2026
       </footer>
     </div>
   );
