@@ -376,7 +376,7 @@ function Portfolio() {
             <SectionHeader label="05" title="DSA & Achievements" accent={accent} muted={muted} />
             <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))", gap: "16px", marginTop: "48px" }}>
               {[
-                { platform: "LeetCode", icon: "⚡", color: "#FFA116", url: "https://leetcode.com/u/Ishita-Verma/", stats: [{ k: "Problems Solved", v: "170+" }, { k: "Contest Rating", v: "~1500" }, { k: "Top Percentage", v: "35%" }] },
+                { platform: "LeetCode", icon: "⚡", color: "#FFA116", url: "https://leetcode.com/u/Ishita-Verma/", stats: [{ k: "Problems Solved", v: "170+" }, { k: "Submissions in past year", v: "300+" }, { k: "Rank", v: "~0.9M" }] },
                 { platform: "GitHub", icon: "🐙", color: accent, url: "https://github.com/justishita", stats: [{ k: "Public Repos", v: "20+" }, { k: "Contributions", v: "80+" }, { k: "Streak", v: "Active" }] },
                 // { platform: "Codeforces", icon: "🔵", color: "#1F8ACB", url: "#", stats: [{ k: "Problems", v: "80+" }, { k: "Rating", v: "Pupil" }, { k: "Contests", v: "15+" }] },
               ].map(plat => (
@@ -400,7 +400,7 @@ function Portfolio() {
             <div style={{ marginTop: "32px", background: surface, border: `1px solid ${border}`, borderRadius: "16px", padding: "24px" }}>
               <h3 style={{ fontFamily: "'Sora', sans-serif", fontSize: "15px", fontWeight: 700, color: accent, marginBottom: "16px" }}>🏆 Highlights</h3>
               <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(200px, 1fr))", gap: "12px" }}>
-                {["150+ DSA Problems Solved (Trees, DP, Graphs)", "Active Open Source Contributor", "Built 10+ Production Web Apps", "Full Stack + AI/ML Proficiency", "1+ Year Professional Dev Experience", "Strong System Design Foundation"].map(item => (
+                {["170+ DSA Problems Solved", "Worked on live project", "Full Stack + AI/ML Proficiency", "1+ Year Professional Dev Intern Experience", "Strong System Design Foundation"].map(item => (
                   <div key={item} style={{ display: "flex", alignItems: "flex-start", gap: "8px", fontSize: "13px", color: muted }}>
                     <span style={{ color: accent, fontWeight: 700, flexShrink: 0 }}>▸</span> {item}
                   </div>
