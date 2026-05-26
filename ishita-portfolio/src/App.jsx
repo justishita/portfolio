@@ -36,7 +36,7 @@ const EXPERIENCE = [
   {
     role: "Web Developer",
     company: "UniSphere BMU ",
-    period: "April 2023 — Present",
+    period: "April 2025 — April 2026",
     desc: "Built and delivered responsive web applications",
     tags: ["React.js", "Redux", "Tailwind CSS"],
   },
