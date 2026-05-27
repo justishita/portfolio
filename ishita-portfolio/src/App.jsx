@@ -376,7 +376,7 @@ function Portfolio() {
             <SectionHeader label="05" title="DSA & Achievements" accent={accent} muted={muted} />
             <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))", gap: "16px", marginTop: "48px" }}>
               {[
-                { platform: "LeetCode", icon: "⚡", color: "#FFA116", url: "https://leetcode.com/u/Ishita-Verma/", stats: [{ k: "Problems Solved", v: "170+" }, { k: "Submissions in past year", v: "300+" }, { k: "Rank", v: "~0.9M" }] },
+                { platform: "LeetCode", icon: "⚡", color: "#FFA116", url: "https://leetcode.com/u/Ishita-Verma/", stats: [{ k: "Problems Solved", v: "170+" }, { k: "Submissions in past year", v: "300+" }, { k: "Rank", v: "~0.8M" }] },
                 { platform: "GitHub", icon: "🐙", color: accent, url: "https://github.com/justishita", stats: [{ k: "Public Repos", v: "20+" }, { k: "Contributions", v: "80+" }, { k: "Streak", v: "Active" }] },
                 // { platform: "Codeforces", icon: "🔵", color: "#1F8ACB", url: "#", stats: [{ k: "Problems", v: "80+" }, { k: "Rating", v: "Pupil" }, { k: "Contests", v: "15+" }] },
               ].map(plat => (
