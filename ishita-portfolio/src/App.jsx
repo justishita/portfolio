@@ -200,7 +200,7 @@ function Portfolio() {
                 </span>
               </div>
               <p style={{ fontSize: "16px", lineHeight: 1.7, color: muted, maxWidth: "560px" }}>
-                Final year CSE student passionate about building scalable systems and intelligent products. 1+ year of web dev experience, 170+ DSA problems solved, and a drive to ship impactful software.
+                Final year CSE student passionate about building scalable systems and intelligent products. 1+ year of web dev experience, 190+ DSA problems solved, and a drive to ship impactful software.
               </p>
               <div style={{ display: "flex", gap: "12px", flexWrap: "wrap" }}>
                 <button className="cta-btn" onClick={() => scrollTo("Projects")} style={{ padding: "12px 28px", borderRadius: "10px", background: `linear-gradient(135deg, ${accent}, #3BDAA0)`, border: "none", color: "#0A0E1A", fontWeight: 700, fontSize: "14px", letterSpacing: "0.02em" }}>
@@ -252,7 +252,7 @@ function Portfolio() {
               </div>
               <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "12px" }}>
                 {[
-                  { label: "DSA Problems", value: "170+", color: accent },
+                  { label: "DSA Problems", value: "190+", color: accent },
                   { label: "Projects Built", value: "10+", color: accent2 },
                   { label: "Dev Experience", value: "1+ yr", color: "#F472B6" },
                   { label: "GitHub Repos", value: "20+", color: "#FBBF24" },
@@ -376,7 +376,7 @@ function Portfolio() {
             <SectionHeader label="05" title="DSA & Achievements" accent={accent} muted={muted} />
             <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))", gap: "16px", marginTop: "48px" }}>
               {[
-                { platform: "LeetCode", icon: "⚡", color: "#FFA116", url: "https://leetcode.com/u/Ishita-Verma/", stats: [{ k: "Problems Solved", v: "170+" }, { k: "Submissions in past year", v: "300+" }, { k: "Rank", v: "~0.8M" }] },
+                { platform: "LeetCode", icon: "⚡", color: "#FFA116", url: "https://leetcode.com/u/Ishita-Verma/", stats: [{ k: "Problems Solved", v: "190+" }, { k: "Submissions in past year", v: "300+" }, { k: "Rank", v: "~0.8M" }] },
                 { platform: "GitHub", icon: "🐙", color: accent, url: "https://github.com/justishita", stats: [{ k: "Public Repos", v: "20+" }, { k: "Contributions", v: "80+" }, { k: "Streak", v: "Active" }] },
                 // { platform: "Codeforces", icon: "🔵", color: "#1F8ACB", url: "#", stats: [{ k: "Problems", v: "80+" }, { k: "Rating", v: "Pupil" }, { k: "Contests", v: "15+" }] },
               ].map(plat => (
@@ -400,7 +400,7 @@ function Portfolio() {
             <div style={{ marginTop: "32px", background: surface, border: `1px solid ${border}`, borderRadius: "16px", padding: "24px" }}>
               <h3 style={{ fontFamily: "'Sora', sans-serif", fontSize: "15px", fontWeight: 700, color: accent, marginBottom: "16px" }}>🏆 Highlights</h3>
               <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(200px, 1fr))", gap: "12px" }}>
-                {["170+ DSA Problems Solved", "Worked on live project", "Full Stack + AI/ML Proficiency", "1+ Year Professional Dev Intern Experience", "Strong System Design Foundation"].map(item => (
+                {["190+ DSA Problems Solved", "Worked on live project", "Full Stack + AI/ML Proficiency", "1+ Year Professional Dev Intern Experience", "Strong System Design Foundation"].map(item => (
                   <div key={item} style={{ display: "flex", alignItems: "flex-start", gap: "8px", fontSize: "13px", color: muted }}>
                     <span style={{ color: accent, fontWeight: 700, flexShrink: 0 }}>▸</span> {item}
                   </div>
