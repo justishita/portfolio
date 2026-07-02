@@ -206,7 +206,7 @@ function Portfolio() {
                 <button className="cta-btn" onClick={() => scrollTo("Projects")} style={{ padding: "12px 28px", borderRadius: "10px", background: `linear-gradient(135deg, ${accent}, #3BDAA0)`, border: "none", color: "#0A0E1A", fontWeight: 700, fontSize: "14px", letterSpacing: "0.02em" }}>
                   View Projects →
                 </button>
-                <a href="/resume.pdf" download="Ishita_Verma_Resume.pdf"className="cta-btn" style={{ padding: "12px 28px", borderRadius: "10px", background: "none", border: `1px solid ${border}`, color: text, fontWeight: 600, fontSize: "14px", display: "flex", alignItems: "center", gap: "6px" }}>
+                <a href="/IshitaVerma_CV.pdf" download="Ishita_Verma_Resume.pdf" className="cta-btn" style={{ padding: "12px 28px", borderRadius: "10px", background: "none", border: `1px solid ${border}`, color: text, fontWeight: 600, fontSize: "14px", display: "flex", alignItems: "center", gap: "6px" }}>
                   📄 Resume
                 </a>
                 <button className="cta-btn" onClick={() => scrollTo("Contact")} style={{ padding: "12px 28px", borderRadius: "10px", background: "none", border: `1px solid ${accent2}50`, color: accent2, fontWeight: 600, fontSize: "14px" }}>
