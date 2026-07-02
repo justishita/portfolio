@@ -27,7 +27,7 @@ const PROJECTS = [
     tags: ["Python", "QLoRA", "HuggingFace", "Streamlit", "PyTorch"],
     color: "#93C5FD",
     icon: "🩺",
-    github: "https://github.com/justishita",
+    github: "https://github.com/justishita/HealthLens",
     live: "#",
   },
 ];
@@ -200,7 +200,7 @@ function Portfolio() {
                 </span>
               </div>
               <p style={{ fontSize: "16px", lineHeight: 1.7, color: muted, maxWidth: "560px" }}>
-                Final year CSE student passionate about building scalable systems and intelligent products. 1+ year of web dev experience, 190+ DSA problems solved, and a drive to ship impactful software.
+                Final year CSE student passionate about building scalable systems and intelligent products. 1+ year of web dev experience, 200+ DSA problems solved, and a drive to ship impactful software.
               </p>
               <div style={{ display: "flex", gap: "12px", flexWrap: "wrap" }}>
                 <button className="cta-btn" onClick={() => scrollTo("Projects")} style={{ padding: "12px 28px", borderRadius: "10px", background: `linear-gradient(135deg, ${accent}, #3BDAA0)`, border: "none", color: "#0A0E1A", fontWeight: 700, fontSize: "14px", letterSpacing: "0.02em" }}>
